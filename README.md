@@ -30,7 +30,17 @@ I'm passionate about programming, technology, and continuous learning.
 I enjoy learning, building projects, and contributing to the developer community. Every project helps me gain new skills and experience.
 
 ---
+name: Workflow Dashboard
 
+on:
+  workflow_dispatch:
+
+jobs:
+  dashboard:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Workflow started
+        run: echo "Workflow executed successfully"
 ## 📊 GitHub Stats
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=niteshsharma80&show_icons=true)
